@@ -1,0 +1,21 @@
+.img-wrapper {
+	max-width: 72.4%;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: -11rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.img-content {
+	position: relative;
+
+	&::after {
+		content: url(../images/bg-pattern-mobile.svg);
+		position: absolute;
+		top: 10rem;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+}
