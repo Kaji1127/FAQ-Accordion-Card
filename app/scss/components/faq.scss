@@ -1,0 +1,29 @@
+.faq {
+	margin: 0 2.4rem;
+
+	&__list {
+		margin-top: 3.8rem;
+	}
+
+	&__item {
+		font-size: 1.3rem;
+		color: var(--darkGrayshBlue);
+		display: grid;
+		grid-template-columns: 1fr 0.8rem;
+		column-gap: 3.5rem;
+		row-gap: 1.2rem;
+		align-items: center;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid var(--lightGrayshBlue);
+
+		&:not(:first-child) {
+			padding-top: 2rem;
+		}
+	}
+
+	&__description {
+		display: none;
+		font-size: 1.2rem;
+		grid-column: 1 / -1;
+	}
+}
