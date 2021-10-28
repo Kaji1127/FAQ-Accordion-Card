@@ -1,0 +1,15 @@
+@use 'utility' as *;
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: var(--font-kumbh);
+}
+
+.heading-primary {
+	font-size: 3.2rem;
+	text-align: center;
+	text-transform: uppercase;
+}
