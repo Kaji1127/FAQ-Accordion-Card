@@ -1,5 +1,21 @@
+@use 'utility' as *;
+
 .faq {
 	margin: 0 2.4rem;
+	z-index: 10;
+
+	@include breakpoint(medium) {
+		grid-column: 2 / -1;
+		margin-right: 4rem;
+	}
+
+	@include breakpoint(large) {
+		margin-right: 6rem;
+	}
+
+	@include breakpoint(xlarge) {
+		margin-right: 9rem;
+	}
 
 	&__list {
 		margin-top: 3.8rem;
@@ -15,6 +31,15 @@
 		align-items: center;
 		padding-bottom: 2rem;
 		border-bottom: 1px solid var(--lightGrayshBlue);
+		cursor: pointer;
+
+		&:hover {
+			color: var(--red);
+		}
+
+		@include breakpoint(large) {
+			font-size: 1.4rem;
+		}
 
 		&:not(:first-child) {
 			padding-top: 2rem;
@@ -25,5 +50,8 @@
 		display: none;
 		font-size: 1.2rem;
 		grid-column: 1 / -1;
+
+		@include breakpoint(large) {
+		}
 	}
 }
