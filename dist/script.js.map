@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"script.js"}
+{"version":3,"sources":["script.js"],"names":["items","document","querySelectorAll","descs","arrow","forEach","item","addEventListener","classList","toggle"],"mappings":"AACA,MAAMA,MAAQC,SAASC,iBAAiB,cAClCC,MAAQF,SAASC,iBAAiB,qBAClCE,MAAQH,SAASC,iBAAiB,UAExCF,MAAMK,SAASC,IACdA,EAAKC,iBAAiB,SAAS,KAC9BD,EAAKE,UAAUC,OAAO","file":"script.js"}
